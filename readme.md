@@ -1,7 +1,7 @@
 I save solutions to codewars katas, algorithms questions, here.
 
 # Leveling System 
-![Rank System](https://github.com/tomzacchia/codewars/blob/main/images/rank_system.png)
+<img src="https://github.com/tomzacchia/codewars/blob/main/images/rank_system.png" width="300px" height="auto">
 
 # Challanges (ranking | link to solution)
 
