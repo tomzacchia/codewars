@@ -26,17 +26,13 @@ validSolution([
 
 ```
 
-```
-validSolution([
-  [5, 3, 4, 6, 7, 8, 9, 1, 2], 
-  [6, 7, 2, 1, 9, 0, 3, 4, 8],
-  [1, 0, 0, 3, 4, 2, 5, 6, 0],
-  [8, 5, 9, 7, 6, 1, 0, 2, 0],
-  [4, 2, 6, 8, 5, 3, 7, 9, 1],
-  [7, 1, 3, 9, 2, 4, 8, 5, 6],
-  [9, 0, 1, 5, 3, 7, 2, 1, 4],
-  [2, 8, 7, 4, 1, 9, 6, 3, 5],
-  [3, 0, 0, 4, 8, 1, 1, 7, 9]
-]); // => false
+## Initial Thoughts
 
-```
+In Sudoku a player wins the game if each row, each column and each subgrid (3x3 grid) contains unique values from 1 to 9. The data structure chosing to repesent the board is a 2D array, where the array and all sub arrays have a length of 9.
+
+Based on the win conditions listed above my approach consisted of the following:
+* Use a functional programming approach to avoid mutating game data
+* Reorganize the data to get all the rows, columns and subgrids for validation
+* Validate that all rows, columns and subgrids contain unique values from 1 to 9
+
+## 
