@@ -12,7 +12,6 @@ function validSolution(board) {
   if (!isrowsArrayValid) return false;
 
   var isSubgridsArrayValid = validateArray(subgridsArray);
-
   if (!isSubgridsArrayValid) return false;
 
   //   default
