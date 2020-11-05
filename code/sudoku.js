@@ -48,9 +48,9 @@ function validSolution(board) {
       for (var column = 0; column < BOARD_LENGTH; column++) {
         var currentNumber = board[row][column];
 
-        var gridRow = Math.floor(row / 3);
-        var gridColumn = Math.floor(column / 3);
-        var subGridIndex = 3 * gridRow + gridColumn;
+        var subgridRow = Math.floor(row / 3);
+        var subgridColumn = Math.floor(column / 3);
+        var subGridIndex = 3 * subgridRow + subgridColumn;
 
         subgridsArray[subGridIndex].push(currentNumber);
       }
