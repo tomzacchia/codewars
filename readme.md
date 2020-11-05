@@ -11,3 +11,4 @@ I save solutions to codewars katas, algorithms questions, here.
 
 * [Conver String to Camel Case](https://github.com/tomzacchia/codewars/blob/main/solutions/6kyu-convert-string-to-camel.md)
 * [Create Phone Number](https://github.com/tomzacchia/codewars/blob/main/solutions/6kyu-create-phone-number.md)
+* [Tribonacci Sequence](https://github.com/tomzacchia/codewars/blob/main/solutions/6kyu-tribonacci-sequence.md)
