@@ -4,7 +4,7 @@ As the name may already reveal, it works basically like a Fibonacci, but summing
 
 So, if we are to start our Tribonacci sequence with [1, 1, 1] as a starting input (AKA signature), we have this sequence:
 
-[1, 1 ,1, 3, 5, 9, 17, 31, ...]
+```[1, 1 ,1, 3, 5, 9, 17, 31, ...]```
 
 Signature will always contain 3 numbers; n will always be a non-negative number; if n == 0, then return an empty array (except in C return NULL) and be ready for anything else which is not clearly specified ;)
 
