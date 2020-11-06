@@ -48,20 +48,20 @@ It is relatively straightforward to aggregate all numbers in the same row or num
  
 ![subgrid-indexes](https://github.com/tomzacchia/codewars/blob/main/images/sudoku_grid.png)
  
-There exists 9 3x3 subgrids on a Sudoku board. In order to determine the subgrid index of ```currentNumber = board[row][column]``` the following operation is performed:
+A Sudoku board has 9 3x3 subgrids. I gave each subgrid an index as illustrated in the picture above. In order to determine the subgrid index of ```currentNumber = board[row][column]``` the following operation is performed:
 ```
   var gridRow = Math.floor(row / 3);
   var gridColumn = Math.floor(column / 3);
   var subGridIndex = 3 * gridRow + gridColumn;
 ```
 
-In the case of a number of index [4, 1], using the above procedure its subindex is determined as follows:
+In the case of board[4, 1], using the above procedure yields the following following:
 ```
   var gridRow = Math.floor(4 / 3); // 1
   var gridColumn = Math.floor(1 / 3); // 0
   var subGridIndex = 3 * 1 + 0; // 3
 ```
-Note that arrays are zero-indexed as such accesing array[3] would give us numbers that belong to the 4th Sudoku subgrid.
+Note that arrays are zero-indexed as such accesing subgridsArray[3] would give us the subarray with `` subgrid index = 4 ```;
  
  ```js
    function createSubgridsArray(board) {
