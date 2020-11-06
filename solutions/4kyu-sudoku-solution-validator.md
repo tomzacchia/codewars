@@ -22,13 +22,13 @@ The board is always 9 cells by 9 cells, and every cell only contains integers fr
 In Sudoku a player wins the game if each row, each column and each subgrid (3x3 grid) contains unique values from 1 to 9. The data structure chosing to repesent the board is a 2D array, where the array and all sub arrays have a length of 9.
 
 Based on the win conditions listed above, my approach consisted of the following:
-* Use a functional programming approach to avoid mutating game data
-* Reorganize the data to get all the rows, columns and subgrids for validation
+* Use a functional programming approach to avoid mutating original game data
+* Reorganize the data to aggregate all the columns into a single array
+* Repeat previous step to aggreate all rows and subgrids into their respetive arrays
 * Validate that all rows, columns and subgrids contain unique values from 1 to 9
 
 ## Aggregating Rows and Columns
-It is relatively straightforward to aggregate all numbers in the same row or number into a subarray. This was accomplished by using a nested for-loop and pushing the current board values, ```board[row][col]```, into a specified subarray Below is the function for aggregating all columns.
-
+It is relatively straightforward to aggregate all numbers in the same row or number into a subarray. This was accomplished by using a nested for-loop and pushing the current board value, ```board[row][col]```, into a specified subarray. Below is the function for aggregating all columns.
 ```js
   function createColumnsArray(board) {
     var columnsArray = createEmptySubArrays();
@@ -40,8 +40,8 @@ It is relatively straightforward to aggregate all numbers in the same row or num
 
     return columnsArray;
   }
-  
  ```
+ In the case where ``` row = 0 ```, as the inner loop counter is incremented the algorithm is descending down the first column ```[row][0] -> [row][8] ```. 
  
  ## Aggregating Values in Subgrids
  
