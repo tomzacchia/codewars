@@ -11,6 +11,7 @@ The board is always 9 cells by 9 cells, and every cell only contains integers fr
 
 ### Examples
 
+| Game | Array Representation |
 | --- | --- |
 | ![sudoku](https://github.com/tomzacchia/codewars/blob/main/images/sudoku.jpg) | test |               
 
