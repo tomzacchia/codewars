@@ -13,8 +13,7 @@ The board is always 9 cells by 9 cells, and every cell only contains integers fr
 
 | Game | Array Representation |
 | --- | --- |
-| ![sudoku](https://github.com/tomzacchia/codewars/blob/main/images/sudoku.jpg) | 
-```js
+| ![sudoku](https://github.com/tomzacchia/codewars/blob/main/images/sudoku.jpg) | ```js
 validSolution([
   [5, 3, 4, 6, 7, 8, 9, 1, 2], 
   [6, 7, 2, 1, 9, 0, 3, 4, 8],
@@ -26,8 +25,7 @@ validSolution([
   [2, 8, 7, 4, 1, 9, 6, 3, 5],
   [3, 0, 0, 4, 8, 1, 1, 7, 9]
 ]); // => false
-```
-|               
+``` |               
 
 
 ```
