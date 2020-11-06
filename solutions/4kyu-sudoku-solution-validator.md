@@ -41,7 +41,8 @@ It is relatively straightforward to aggregate all numbers in the same row or num
     return columnsArray;
   }
  ```
- In the case where ``` row = 0 ```, as the inner loop counter is incremented the algorithm is descending down the first column ```[row][0] -> [row][8] ```. 
+ In the case where ``` row = 0 ```, as the inner loop counter is incremented the algorithm is descending down the first column of the array representing of the game giving us the following subarray: 
+ ``` [5, 6, 1, 8, 4, 7, 9, 2, 3] ```
  
  ## Aggregating Values in Subgrids
  
