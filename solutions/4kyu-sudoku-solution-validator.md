@@ -61,7 +61,7 @@ In the case of board[4, 1], using the above procedure yields the following follo
   var gridColumn = Math.floor(1 / 3); // 0
   var subGridIndex = 3 * 1 + 0; // 3
 ```
-Note that arrays are zero-indexed as such accesing subgridsArray[3] would give us the subarray with `` subgrid index = 4 ```;
+Note that arrays are zero-indexed as such accesing subgridsArray[3] would give us the subarray with ``` subgrid index = 4 ```;
  
  ```js
    function createSubgridsArray(board) {
