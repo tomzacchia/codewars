@@ -13,7 +13,7 @@ The board is always 9 cells by 9 cells, and every cell only contains integers fr
 
 | Game Board | Array Representation |
 | --- | ---|
-| ![Sudoku](https://github.com/tomzacchia/codewars/blob/main/images/sudoku.jpg) | ![Sudoku_2D](https://github.com/tomzacchia/codewars/blob/main/images/sudoku_2D.png) |
+| <img src="https://github.com/tomzacchia/codewars/blob/main/images/sudoku.jpg" >| <img src="https://github.com/tomzacchia/codewars/blob/main/images/sudoku.jpg" width="350px" height="auto" > |
 
 ## [Full Solution](https://github.com/tomzacchia/codewars/blob/main/code/sudoku.js)
 
