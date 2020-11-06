@@ -11,7 +11,7 @@ The board is always 9 cells by 9 cells, and every cell only contains integers fr
 
 ### Examples
 
-
+| --- | --- |
 |                                                                                                      | ```     |
 |                                                                                                      | validSolution([ |
 |                                                                                                      |  [5, 3, 4, 6, 7, 8, 9, 1, 2], |
