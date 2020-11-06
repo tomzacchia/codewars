@@ -11,11 +11,7 @@ The board is always 9 cells by 9 cells, and every cell only contains integers fr
 
 ### Examples
 
-<div>
-  <div>
-    <img src="https://github.com/tomzacchia/codewars/blob/main/images/sudoku.jpg" >
-  </div>
-  <div>
+
     ```js
       validSolution([
         [5, 3, 4, 6, 7, 8, 9, 1, 2], 
@@ -29,8 +25,6 @@ The board is always 9 cells by 9 cells, and every cell only contains integers fr
         [3, 0, 0, 4, 8, 1, 1, 7, 9]
      ]); // => false
     ```
-  </div>
-</div>
               
 
 
