@@ -1,4 +1,4 @@
-## Problem 
+## [Problem](https://www.codewars.com/kata/5629db57620258aa9d000014) 
 
 Given two strings s1 and s2, we want to visualize how different the two strings are. We will only take into account the lowercase letters (a to z). First let us count the frequency of each lowercase letters in s1 and s2.
 
@@ -53,4 +53,4 @@ The solution above would past testing due to having met all of the following cri
 3. sort in order of: frequency, precedence and finally letter.
 4. format and return solution
 
-## [Solution]()
+## [Solution](https://github.com/tomzacchia/codewars/blob/main/code/4kyu-strings-mix.js)
