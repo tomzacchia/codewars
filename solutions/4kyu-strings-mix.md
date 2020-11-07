@@ -41,7 +41,7 @@ solution = "1:aaa/1:nnn/1:gg/2:ee/2:ff/2:ii/2:oo/2:rr/2:ss/2:tt""
 The solution is valid due to the following criteria:
 * only lowercase letters from a to z are in the solution
 * the frequency of each letter is in descending order, "aaa" placed before "gg"
-* all letters that have the same frequency count as other letters are ordered by of prefix ("1" < "2" < "=") AND within each prefix ordered alphabetically
+* all letters that have the same frequency count are ordered by prefix ("1" < "2" < "=") AND within each prefix ordered alphabetically
 ```js "1:gg/2:ee/2:ff"  // "e" < "g", however "1" < "2" ```
 
 ## Pseudo Code
