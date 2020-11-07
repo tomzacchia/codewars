@@ -29,7 +29,7 @@ Hopefully other examples can make this clearer.
 
 ## Interpretation
 
-At first glance the problem seems straightforward. We want to count the frequency of every lowercase letter for two given strings. If both strings have a frequency count for the same letter, i.e ``` str1 = "eee", str2="e" ```, we take the greater frequency cout of the two, in this case ```frequency_of_e = 3``` and perform some additional procedures. When I first attempted the problem my code was failing a lot of test cases and I furiously changed the algorithm one line a time to see what could have cause the tests to fail. I found that the example solutions provided were not clear enough as to how to final output should be formatted. A more honest example would have been something closer to the following:
+At first glance the problem seems straightforward. We want to count the frequency of every lowercase letter for two given strings. If both strings have a frequency count for the same letter, i.e ``` str1 = "eee", str2="e" ```, we take the greater frequency cout of the two, in this case ```frequency_of_e = 3``` and perform some additional procedures. When I first attempted the problem my code was failing a lot of test cases and I furiously changed the algorithm one line a time to see what could have cause the tests to fail. I found that the example solutions provided were not clear enough as to how to final output should be formatted. A more clear example would have been something closer to the following:
 
 ```js
 str1 = "In many !& languages";
