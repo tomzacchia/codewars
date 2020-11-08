@@ -5,8 +5,11 @@ I save solutions to codewars katas, algorithms questions, here.
 
 # Challanges
 
-## 3 Kyu
-## 5 Kyu
+## 4 Kyu
+* [Most Frequently Used Word in Text](https://github.com/tomzacchia/codewars/blob/main/code/4kyu-most-frequent-word.js)
+* [Sudoku Solution Validator](https://github.com/tomzacchia/codewars/blob/main/solutions/4kyu-sudoku-solution-validator.md)
+* [Strings Mix](https://github.com/tomzacchia/codewars/blob/main/solutions/4kyu-strings-mix.md)
+
 ## 6 Kyu
 
 * [Conver String to Camel Case](https://github.com/tomzacchia/codewars/blob/main/solutions/6kyu-convert-string-to-camel.md)
