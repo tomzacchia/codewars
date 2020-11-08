@@ -1,4 +1,4 @@
-I save solutions to codewars katas, algorithms questions, here.
+I save solutions to codewars katas, algorithm questions, here.
 
 # Leveling System 
 <img src="https://github.com/tomzacchia/codewars/blob/main/images/rank_system.png" width="200px" height="auto">
