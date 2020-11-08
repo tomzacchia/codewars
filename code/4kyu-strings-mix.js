@@ -1,4 +1,4 @@
-## [Problem](https://www.codewars.com/kata/51e056fe544cf36c410000fb)
+// Codewars problem => https://www.codewars.com/kata/51e056fe544cf36c410000fb
 
 function mix(s1, s2) {
     var s1CharFrequency = charFrequencyMap(s1);
