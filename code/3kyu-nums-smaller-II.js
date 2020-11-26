@@ -21,34 +21,49 @@ class CounterTree {
     }
 
     var currentNode = this.root;
+    var newNodeCount = 0;
 
-    while (currentNode) {
+    while (true) {
+      if (currentNode.value === value) {
+        currentNode.count += 1;
+        return currentNode.count - 1;
+      }
+
       if (value < currentNode.value) {
-        this.root.count += 1;
+        currentNode.count += 1;
 
         if (currentNode.left === null) {
           currentNode.left = newNode;
-          return newNode.count;
+          break;
         }
 
         currentNode = currentNode.left;
       } else if (value > currentNode.value) {
-        newNode.count = currentNode.count + 1;
+        newNodeCount = newNodeCount + currentNode.count + 1;
 
         if (currentNode.right === null) {
           currentNode.right = newNode;
-          return newNode.count;
+          break;
         }
 
         currentNode = currentNode.right;
       }
     }
+
+    return newNodeCount;
   }
 }
 
-smallerToRight([12, 1, 2, 3, 0, 11, 4]);
-smallerToRight([5, 4, 3, 2, 1]);
-smallerToRight([1, 2, 3, 4, 5]);
+smallerToRight([12, 1, 2, 3, 0, 11, 4]); // 6 1 1 1 0 1 0
+smallerToRight([5, 4, 3, 2, 1]); // 4 3 2 1 0
+smallerToRight([1, 2, 3, 4, 5]); // 0 0 0 0 0
+
+smallerToRight([5, 4, 3, 2, 1]); // [4, 3, 2, 1, 0]
+smallerToRight([1, 2, 3]); // [0, 0, 0]
+smallerToRight([1, 2, 0]); // [1, 1, 0]
+smallerToRight([1, 2, 1]); // [0, 1, 0]
+smallerToRight([1, 1, -1, 0, 0]); // [3, 3, 0, 0, 0]
+smallerToRight([5, 4, 7, 9, 2, 4, 4, 5, 6]); // [4, 1, 5, 5, 0, 0, 0, 0, 0]
 
 // data<array>
 function smallerToRight(data) {
